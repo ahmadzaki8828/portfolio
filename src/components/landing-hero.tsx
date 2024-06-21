@@ -11,18 +11,15 @@ export const LandingHero = () => {
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-[#fefae0] via-[#606c38] to-[#283618]"></div>
       </div>
       <div className="text-sm md:text-xl font-light text-[#fefae0]">
-        Generate content using AI powered by ChatGPT and Replicate AI
+        XYZ amount of people have visited this site
       </div>
       <div>
         <Button
           variant={"default"}
           className="md:text-lg p-4 md:p-6 rounded-full font-semibold"
         >
-          Try out for free
+          Resume
         </Button>
-      </div>
-      <div className="text-[#fefae0] text-xs md:text-sm font-normal">
-        No card information required
       </div>
     </div>
   );
