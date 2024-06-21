@@ -1,5 +1,13 @@
-import Image from "next/image";
+import { LandingContent } from "@/components/landing-content";
+import { LandingHero } from "@/components/landing-hero";
 
-export default function Home() {
-  return <p>Ahmads Portfolio</p>;
-}
+const HomePage = () => {
+  return (
+    <>
+      <LandingHero />
+      <LandingContent />
+    </>
+  );
+};
+
+export default HomePage;
