@@ -14,12 +14,14 @@ export const LandingHero = () => {
         XYZ amount of people have visited this site
       </div>
       <div>
-        <Button
-          variant={"default"}
-          className="md:text-lg p-4 md:p-6 rounded-full font-semibold"
-        >
-          Resume
-        </Button>
+        <Link href={"/resume"}>
+          <Button
+            variant={"default"}
+            className="md:text-lg p-4 md:p-6 rounded-full font-semibold"
+          >
+            Resume
+          </Button>
+        </Link>
       </div>
     </div>
   );

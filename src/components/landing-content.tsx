@@ -39,6 +39,11 @@ export const LandingContent = () => {
           </Card>
         ))}
       </div>
+      <div>
+        <h2 className="text-center text-4xl text-[#fefae0] font-extrabold mb-10 p-9">
+          Projects
+        </h2>
+      </div>
     </div>
   );
 };
