@@ -16,12 +16,14 @@ const IMAGES = [
 export const ProjectContent = () => {
   return (
     <div className="px-10 pb-20">
-      <Card className="bg-[#bc6c25] border-none text-white col-span-1 md:col-span-4">
+      <Card className="bg-[#0081a7] border-none text-white col-span-1 md:col-span-4">
         <CardHeader>
           <CardTitle className="flex items-center justify-center gap-x-2">
             <div>
-              <p className="text-lg text-center">All-in-One AI platform</p>
-              <p className="text-[#fefae0] text-sm text-center">
+              <p className="text-[#f07167] text-lg text-center">
+                All-in-One AI platform
+              </p>
+              <p className="text-[#f07167] text-sm text-center">
                 Made using: React, TypeScript, Tailwind CSS, PostgreSQL
               </p>
             </div>
@@ -29,7 +31,7 @@ export const ProjectContent = () => {
           <CardContent className="pt-4 px-0 text-center">
             <ImageSlider images={IMAGES} />
             <Link href="https://github.com/ahmadzaki8828/Ai-platform" passHref>
-              <p className="text-[#fefae0] text-md text-center pt-5">
+              <p className="text-[#f07167] text-md text-center pt-5">
                 Click here to go to Github Repository
               </p>
             </Link>
