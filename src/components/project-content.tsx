@@ -2,6 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { ImageSlider } from "./image-slider";
+import Link from "next/link";
 
 const IMAGES = [
   { url: "./athena-1.png", alt: "Image not Found" },
@@ -27,6 +28,11 @@ export const ProjectContent = () => {
           </CardTitle>
           <CardContent className="pt-4 px-0 text-center">
             <ImageSlider images={IMAGES} />
+            <Link href="https://github.com/ahmadzaki8828/Ai-platform" passHref>
+              <p className="text-[#fefae0] text-md text-center pt-5">
+                Click here to go to Github Repository
+              </p>
+            </Link>
           </CardContent>
         </CardHeader>
       </Card>
