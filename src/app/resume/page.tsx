@@ -5,7 +5,7 @@ const ResumePage = () => {
   return (
     <>
       <Link href="./">
-        <p className="text-[#f07167] text-md text-center pt-5">
+        <p className="text-[#f07167] text-xl text-center pt-5">
           Click here to go to back
         </p>
       </Link>
