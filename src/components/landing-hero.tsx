@@ -10,9 +10,7 @@ export const LandingHero = () => {
         <h1>Hi, Welcome to my Portfolio</h1>
         <div className="text-transparent bg-clip-text bg-gradient-to-r from-[#fefae0] via-[#606c38] to-[#283618]"></div>
       </div>
-      <div className="text-sm md:text-xl font-light text-[#f07167]">
-        I am Ahmad
-      </div>
+      <div className="text-sm md:text-xl  text-[#f07167]">I am Ahmad</div>
       <div>
         <Link href={"/resume"}>
           <Button

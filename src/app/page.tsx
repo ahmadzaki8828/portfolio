@@ -1,5 +1,6 @@
 import { LandingContent } from "@/components/landing-content";
 import { LandingHero } from "@/components/landing-hero";
+import { MyContact } from "@/components/landing-mycontact";
 import { ProjectContent } from "@/components/project-content";
 
 const HomePage = () => {
@@ -8,6 +9,7 @@ const HomePage = () => {
       <LandingHero />
       <LandingContent />
       <ProjectContent />
+      <MyContact />
     </>
   );
 };
