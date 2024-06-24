@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 const aboutMe = [
   {
     name: "Ahmad Zaki",
-    title: "Computer Science (Honors) at York University",
+    title: "Computer Science(Honors) at York University",
     description:
       "High-energy enthusiastic computer science student, actively working on learning as much as possible",
   },
