@@ -1,3 +1,4 @@
+import { MyContact } from "@/components/My-Contact";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,9 +10,10 @@ const ResumePage = () => {
           Click here to go to back
         </p>
       </Link>
-      <div className="flex items-center justify-center min-h-screen">
+      <div className="flex items-center justify-center py-10">
         <Image src="/resumeImage.png" width={500} height={500} alt="Resume" />
       </div>
+      <MyContact />
     </>
   );
 };
