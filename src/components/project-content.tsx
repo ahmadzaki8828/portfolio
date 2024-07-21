@@ -21,7 +21,7 @@ export const ProjectContent = () => {
           <CardTitle className="flex items-center justify-center gap-x-2">
             <div>
               <p className="text-[#f07167] text-lg text-center">
-                All-in-One AI platform
+                Athena - AI Content Generator
               </p>
               <p className="text-[#f07167] text-sm text-center">
                 Made using: React, TypeScript, Tailwind CSS, PostgreSQL

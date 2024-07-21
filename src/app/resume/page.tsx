@@ -11,7 +11,18 @@ const ResumePage = () => {
         </p>
       </Link>
       <div className="flex items-center justify-center py-10">
-        <Image src="/resumeImage.png" width={500} height={500} alt="Resume" />
+        <a href="/resume.pdf" target="_blank">
+          <Image src="/resumeImage.png" width={500} height={500} alt="Resume" />
+        </a>
+      </div>
+      <div className="flex items-center justify-center py-5">
+        <a
+          href="/resume.pdf"
+          download="resume.pdf"
+          className="text-[#f07167] text-xl"
+        >
+          Download
+        </a>
       </div>
       <MyContact />
     </>
